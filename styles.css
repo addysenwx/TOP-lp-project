@@ -95,3 +95,48 @@ button{
     padding: 90px;
     text-align: center;
 }
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.information-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header{
+    font-family: 'Roboto-extra-bold', sans-serif;
+    color: var(--dark-main-color);
+    font-size: 36px;
+}
+
+.offerings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 25%;
+}
+
+
+.offers-desc{
+    width: 200px;
+    height: 200px;
+    color: var(--dark-main-color);
+    text-align: center;
+}
